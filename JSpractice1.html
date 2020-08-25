@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="author" content="JustBelieveMe">
+    <title>Practice of JavaScript</title>
+    <link rel=stylesheet type="text/css" href="JSpractice1.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="JSpractice.js"></script>
+</head>
+
+<body onload="showTime()">
+    <div id="sheet" name="sheet">
+        <form>
+            <fieldset>
+                <tr>
+                    <td>
+                        <input type="number" id="input_num" name="input_num">
+                    </td>
+                    <td>
+                        <button type="button" id="btn_submit1" name="btn_submit1">Add1</button>
+                        <button type="button" id="btn_submit2" name="btn_submit2">Add2</button>
+                        <button type="button" id="btn_submit3" name="btn_submit3">Add3</button>
+                        <button type="button" id="changeColor" name="changeColor">changeColor</button>
+                    </td>
+                    <p id="result">Result</p>
+                    <p id="inlineV" style="color:blue">inlineV</p>
+                    <p id="TagV">TagV</p>
+                    <style>
+                        #TagV {
+                            color: blue;
+                        }
+                    </style>
+                    <p id="ExternalV">ExternalV</p>
+
+                    Time: <p id="date" onclick="aller()"></p>
+                </tr>
+            </fieldset>
+        </form>
+    </div>
+</body>
+
+</html>
